@@ -1,0 +1,76 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100vh;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a97f7
+}
+
+.container-login {
+    width: 800px;
+    border-radius: 12px;
+}
+
+.left {
+    background-color: #eff8ff;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 14px;
+}
+
+.topic-inn {
+    border-radius: 12px;
+    padding: 1rem .5rem;
+    margin: 5px 0;
+    background-color: #eff8ff;    
+}
+
+.text-inn {
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid rgb(179, 179, 179);
+}
+
+.right {
+    background-color: #eff8ff;
+    border-radius: 0 12px 12px 0;
+}
+
+@media (max-width: 1100px) {
+    .container-login {
+        width: 80%;
+    }
+}
+
+/* FORMULARIO */
+.input-login {
+    width: 100%;
+    border: none;
+    border-left: 10px solid #3a97f7;
+    border-radius: 12px;
+    background-color: #eff8ff;
+    height: 40px;
+    padding: 10px;
+}
+
+.input-login:focus {
+    outline: #3a97f7;
+    border: none;
+}
+
+.btn-secondary {
+    border-radius: 12px;
+    border-color: #3a97f7;
+    background-color: #3a97f7;
+    color: #eff8ff;
+}
