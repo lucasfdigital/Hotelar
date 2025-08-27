@@ -25,6 +25,9 @@ WORKDIR /var/www/html
 # Copia os arquivos de dependência do Composer
 COPY composer.json composer.lock ./
 
+# Atualiza as dependências do Composer para garantir a compatibilidade
+RUN composer update
+
 # Instala as dependências do Composer
 RUN composer install --no-dev --optimize-autoloader
 
