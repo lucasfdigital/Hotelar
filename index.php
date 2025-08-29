@@ -20,7 +20,7 @@
                 <div class='d-flex justify-content-center'>
                     <img style='height:2.5rem;' src="assets/img/Hotelar.png" alt="">
                 </div>
-                <h2 class='slogan'> Simplificando a sua gestão.</h2>
+                <h2 class='slogan'>Simplificando a sua gestão.</h2>
                 <form action="verLogin/verLogin.php" method="POST" class="my-4 py-4 border-top border-bottom">
                     <?php
                     if (isset($_GET['text'])) {
@@ -33,7 +33,7 @@
                     }
                     ?>
                     <div class="mt-2">
-                        <input type="text" name="login" id="login" class="input-login" placeholder="Login">
+                        <input type="text" name="login" id="login" class="input-login" placeholder="Email">
                         <input type="password" name="senha" id="senha" class="input-login mt-3" placeholder="Senha">
                     </div>
 
