@@ -33,7 +33,7 @@
                     }
                     ?>
                     <div class="mt-2">
-                        <input type="text" name="login" id="login" class="input-login" placeholder="Email">
+                        <input type="text" name="login" id="login" class="input-login" placeholder="Login">
                         <input type="password" name="senha" id="senha" class="input-login mt-3" placeholder="Senha">
                     </div>
 
